@@ -11,7 +11,11 @@ public class Variables {
         System.out.println(name + " is " + age);
         System.out.println(7 / 2);
         System.out.println(7 / 2.0);
-
+        System.out.println(10 % 3);
+        System.out.println("5" + 3);
+        System.out.println(5 + 3 + "5");
+        System.out.println("5" + 5 + 3);
+        System.out.println("5" + (5 + 3));
         var count = 10;
         final double PI = 3.14159;
         System.out.println(count + " " + PI);
